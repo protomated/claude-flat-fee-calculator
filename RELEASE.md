@@ -1,6 +1,6 @@
-# Flat-Fee Repricing Calculator v1.0.0
+# Flat-Fee Repricing Calculator v1.0.1
 
-Initial release.
+Adds Legal Builder Hub freshness frontmatter (`last_verified`, `freshness_window`, `freshness_category: stable`) to the skill — no functional changes.
 
 ## What's included
 
