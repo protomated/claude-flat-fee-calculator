@@ -1,6 +1,10 @@
 # Connectors
 
-This plugin uses a connector that ships with Claude Desktop, managed by Anthropic — you do not need to set up OAuth credentials.
+This plugin works entirely from numbers you type in. Filesystem is optional — only needed if you want the skill to save the CSV model for you, or cross-check estimates against a saved billing-narrative output. It ships with Claude Desktop, managed by Anthropic — you do not need to set up OAuth credentials.
+
+## Using this in ChatGPT Desktop
+
+This skill also works in ChatGPT Desktop. There's no Filesystem connector there — if you want the CSV saved, download it from the chat directly instead.
 
 ## Connector for this plugin
 

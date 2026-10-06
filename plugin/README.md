@@ -4,6 +4,8 @@ A Claude Desktop plugin for solo and small-firm attorneys. One skill (`/flat-fee
 
 **Distributed by [Protomated](https://protomated.com) as a free download.**
 
+**Works with:** Claude Desktop and ChatGPT Desktop.
+
 ---
 
 ## ⚠️ Required: Read This Before You Install
@@ -28,15 +30,19 @@ The plugin is instructed to request your explicit in-conversation confirmation b
 
 1. Download `flat-fee-calculator.zip` from the [Releases page](https://github.com/protomated/claude-flat-fee-calculator/releases).
 2. Double-click the `.zip` file, or drag it into Claude Desktop's **Extensions** panel.
-3. Claude Desktop will install the plugin and prompt you to connect Filesystem.
+3. Claude Desktop will install the plugin.
 
-### Step 2 — Connect Filesystem
+### Step 2 — (Optional) Connect Filesystem
 
-See [CONNECTORS.md](CONNECTORS.md) for step-by-step setup and troubleshooting.
+This skill works entirely from numbers you type in — Filesystem is only needed if you want it to save the CSV model for you, or cross-check estimates against a saved billing-narrative output. See [CONNECTORS.md](CONNECTORS.md) for setup.
 
 ### Step 3 — Verify
 
 Open a new Claude Desktop chat. Type `/skills`. You should see `/flat-fee-calculator` listed. Run it to start.
+
+### Using this in ChatGPT Desktop
+
+This skill also works in ChatGPT Desktop. Install the plugin the same way (Settings → Apps & Connectors → Plugins → Upload plugin archive), then start a new chat — no connector needed, the skill works from the numbers you type in.
 
 ---
 

@@ -160,4 +160,4 @@ Save as CSV? [Confirm to save — proposed path: pricing/[task-type]-repricing-m
 
 ---
 
-— Prepared with Protomated Solo Attorney Claude Starter Kit (Claude Desktop) | Attorney review required before use | Not legal advice
+— Prepared with Protomated Flat-Fee Repricing Calculator | Attorney review required before use | Not legal advice

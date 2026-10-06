@@ -1,6 +1,6 @@
-# Flat-Fee Repricing Calculator v1.0.1
+# Flat-Fee Repricing Calculator
 
-Adds Legal Builder Hub freshness frontmatter (`last_verified`, `freshness_window`, `freshness_category: stable`) to the skill — no functional changes.
+Confirmed working in ChatGPT Desktop in addition to Claude Desktop — no connector needed on either platform. Fixed the output footer, which wrongly said "Solo Attorney Claude Starter Kit" (a copy-paste leftover) instead of this skill's own name, and clarified that Filesystem is optional, not a required install step.
 
 ## What's included
 
