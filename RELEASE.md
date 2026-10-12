@@ -1,6 +1,6 @@
 # Flat-Fee Repricing Calculator
 
-Confirmed working in ChatGPT Desktop in addition to Claude Desktop — no connector needed on either platform. Fixed the output footer, which wrongly said "Solo Attorney Claude Starter Kit" (a copy-paste leftover) instead of this skill's own name, and clarified that Filesystem is optional, not a required install step.
+Fixed the skill calling other installed plugins' tools unprompted — it was observed reaching into Legal Billing Tracker's time-entry lookup during a routine run, because connected tools are account-wide, not scoped to the invoked skill, and the grounding-data instructions were ambiguous enough to read as license to use any available source. Added an explicit scope boundary: Filesystem only, and only if already connected — nothing else.
 
 ## What's included
 
