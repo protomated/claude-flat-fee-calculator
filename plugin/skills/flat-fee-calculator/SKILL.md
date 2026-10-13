@@ -116,9 +116,9 @@ Show, in this order:
 
 ### Step 7 — Save to workspace (optional, with confirmation)
 
-Propose a destination, e.g. `pricing/[task-type]-repricing-model-[date].csv` at the top level of the connected Filesystem workspace (not inside a single matter folder, since this model applies across matters of a given type).
+If the Filesystem connector is connected, propose a destination, e.g. `pricing/[task-type]-repricing-model-[date].csv` at the top level of the connected Filesystem workspace (not inside a single matter folder, since this model applies across matters of a given type). If Filesystem isn't connected, skip this step — tell the attorney to copy the CSV output instead.
 
-Do not write any file without explicit confirmation.
+Use only the Filesystem connector to write the file — no other plugin's tools. Do not write any file without the attorney's explicit confirmation of the proposed path.
 
 ---
 
